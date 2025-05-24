@@ -12,7 +12,7 @@ st.write("This app uses machine learning for predicting house prices with given 
 
 st.divider()
 
-bedrooms = st.number_input("Number of bedrroms", min_value=0, value=0)
+bedrooms = st.number_input("Number of bedrooms", min_value=0, value=0)
 bathrooms = st.number_input("Number of bathrooms", min_value=0, value=0)
 livingarea = st.number_input("Living area", min_value=0, value=2000)
 condition = st.number_input("Condition", min_value=0, value=3)
